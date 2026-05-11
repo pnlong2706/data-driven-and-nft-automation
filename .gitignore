@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE / editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test / Selenium artifacts
+*.log
+screenshots/
+chromedriver*.log
+geckodriver.log
+.cache/
+
+# Local scratch
+*.bak
+*.tmp
+_debug_*.py
+feature_002_test_details.txt

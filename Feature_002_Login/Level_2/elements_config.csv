@@ -1,0 +1,8 @@
+element_name,locator_type,locator_value
+site_url,URL,https://school.moodledemo.net/login/index.php
+success_url_fragment,VALUE,/my/
+login_url_fragment,VALUE,login/index.php
+txt_username,ID,username
+txt_password,ID,password
+btn_login,ID,loginbtn
+lbl_error,XPATH,"//*[@id='loginerrormessage' or contains(@class,'loginerrors') or contains(@class,'alert-danger')]"

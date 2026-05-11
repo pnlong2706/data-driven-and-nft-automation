@@ -1,0 +1,11 @@
+tc_id,username,password,expected_type,expected_value
+TC-002-001,student,moodle26,URL,/my/
+TC-002-002,student,wrongpass,ERROR,Please try again
+TC-002-003,unknown_user,moodle26,ERROR,Please try again
+TC-002-010,st,moodle26,ERROR,Please try again
+TC-002-011,stu,moodle26,ERROR,Please try again
+TC-002-012,student1,moodle26,ERROR,Please try again
+TC-002-013,12345678901234567890,moodle26,ERROR,Please try again
+TC-002-014,123456789012345678901,moodle26,ERROR,Please try again
+TC-002-022,,moodle26,ERROR,Please try again
+TC-002-024,student,,ERROR,Please try again
