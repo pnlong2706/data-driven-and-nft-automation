@@ -1,0 +1,21 @@
+element_name,locator_type,locator_value
+site_url,URL,https://school.moodledemo.net/my/courses.php
+login_url,URL,https://school.moodledemo.net/login/index.php
+success_url_fragment,VALUE,/my/
+login_url_fragment,VALUE,login/index.php
+txt_username,ID,username
+txt_password,ID,password
+btn_login,ID,loginbtn
+lbl_login_error,XPATH,"//*[@id='loginerrormessage' or contains(@class,'loginerrors') or contains(@class,'alert-danger')]"
+txt_search,NAME,search
+btn_sort_dropdown,ID,sortingdropdown
+btn_display_dropdown,ID,displaydropdown
+sort_option_fullname,CSS,'a[data-filter="sort"][data-value="fullname"]'
+sort_option_lastaccessed,CSS,'a[data-filter="sort"][data-value="ul.timeaccess desc"]'
+sort_option_startdate,CSS,'a[data-filter="sort"][data-value="startdate"]'
+display_option_card,CSS,'a[data-display-option="display"][data-value="card"]'
+display_option_list,CSS,'a[data-display-option="display"][data-value="list"]'
+display_option_summary,CSS,'a[data-display-option="display"][data-value="summary"]'
+course_info_container,CSS,.course-info-container
+courses_view_container,CSS,[data-region='courses-view']
+no_courses_text,VALUE,No courses

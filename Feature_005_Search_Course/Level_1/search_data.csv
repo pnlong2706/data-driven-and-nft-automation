@@ -1,0 +1,22 @@
+tc_id,search_text,sort_by,display_mode,expected_type,expected_value
+TC-005-001,Moodle Mountain (LMS training 01),Course name,Card,COURSES,Moodle Mountain
+TC-005-002,xyznonexist,Course name,Card,NO_RESULTS,No courses were found
+TC-005-003,,Course name,Card,ALL_COURSES,
+TC-005-004,Moodle Mountain (LMS training 01),Last accessed,Card,COURSES,Moodle Mountain
+TC-005-005,Moodle Mountain (LMS training 01),Start date,Card,COURSES,Moodle Mountain
+TC-005-006,Moodle Mountain (LMS training 01),Course name,Summary,COURSES,Moodle Mountain
+TC-005-007,Moodle Mountain (LMS training 01),Course name,List,COURSES,Moodle Mountain
+TC-005-010,,Course name,Card,ALL_COURSES,
+TC-005-011,M,Course name,Card,COURSES,Moodle Mountain
+TC-005-012,Moodle Mountain (LMS training 01),Course name,Card,COURSES,Moodle Mountain
+TC-005-013,{200_CHARS},Course name,Card,NO_RESULTS,No courses were found
+TC-005-020,Moodle Mountain (LMS training 01),Course name,Card,COURSES,Moodle Mountain
+TC-005-021,xyznonexist,Course name,Card,NO_RESULTS,No courses were found
+TC-005-022,,Course name,Card,ALL_COURSES,
+TC-005-023,Moodle Mountain (LMS training 01),Last accessed,Card,COURSES,Moodle Mountain
+TC-005-024,Moodle Mountain (LMS training 01),Start date,Card,COURSES,Moodle Mountain
+TC-005-025,Moodle Mountain (LMS training 01),Course name,Summary,COURSES,Moodle Mountain
+TC-005-026,Moodle Mountain (LMS training 01),Course name,List,COURSES,Moodle Mountain
+TC-005-030,Moodle Mountain (LMS training 01),Course name,Card,COURSES,Moodle Mountain
+TC-005-031,,Course name,Card,ALL_COURSES,
+TC-005-032,xyznonexist,Course name,Card,NO_RESULTS,No courses were found
