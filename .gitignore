@@ -32,6 +32,8 @@ chromedriver*.log
 geckodriver.log
 .cache/
 
+.data/
+
 # Local scratch
 *.bak
 *.tmp
