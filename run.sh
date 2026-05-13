@@ -6,6 +6,8 @@ EXITCODE=0
 
 ./Feature_002_Login/run.sh || EXITCODE=1
 
+./Feature_003_ChangePassword/run.sh || EXITCODE=1
+
 # ./Feature_XXX/run.sh || EXITCODE=1
 
 echo

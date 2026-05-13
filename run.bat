@@ -7,8 +7,8 @@ set "EXITCODE=0"
 call Feature_002_Login\run.bat
 if errorlevel 1 set "EXITCODE=1"
 
-REM call Feature_XXX\run.bat
-REM if errorlevel 1 set "EXITCODE=1"
+call Feature_003_ChangePassword\run.bat
+if errorlevel 1 set "EXITCODE=1"
 
 echo.
 if "%EXITCODE%"=="0" (
