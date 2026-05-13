@@ -1,0 +1,16 @@
+element_name,locator_type,locator_value
+login_url,URL,https://school.moodledemo.net/login/index.php
+change_pw_url,URL,https://school.moodledemo.net/login/change_password.php
+preferences_url,URL,https://school.moodledemo.net/user/preferences.php
+username_field,ID,username
+password_field,ID,password
+login_btn,ID,loginbtn
+user_menu,ID,user-menu-toggle
+preferences_link,LINK_TEXT,Preferences
+change_pw_link,LINK_TEXT,Change password
+current_pw_field,ID,id_password
+new_pw1_field,ID,id_newpassword1
+new_pw2_field,ID,id_newpassword2
+submit_btn,ID,id_submitbutton
+notice,ID,notice
+continue_btn,CSS_SELECTOR,.singlebutton form input[type='submit']
