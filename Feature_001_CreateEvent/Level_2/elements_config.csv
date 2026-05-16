@@ -1,0 +1,23 @@
+element_name,locator_type,locator_value
+base_url,URL,https://school.moodledemo.net
+login_url,URL,https://school.moodledemo.net/login/index.php
+calendar_month_url_template,VALUE,https://school.moodledemo.net/calendar/view.php?view=month&time={}
+txt_username,ID,username
+txt_password,ID,password
+btn_login,ID,loginbtn
+lbl_login_error,XPATH,"//*[@id='loginerrormessage' or contains(@class,'loginerrors') or contains(@class,'alert-danger')]"
+lbl_guest_access,XPATH,"//*[contains(normalize-space(.), 'guest access')]"
+lnk_login,XPATH,"//a[contains(@href, '/login/index.php')][contains(normalize-space(.), 'Log in')]"
+btn_new_event,XPATH,"//button[contains(@data-action,'new-event-button')]"
+txt_event_name,ID,id_name
+ddl_start_day,ID,id_timestart_day
+ddl_start_month,ID,id_timestart_month
+ddl_start_year,ID,id_timestart_year
+ddl_start_hour,ID,id_timestart_hour
+ddl_start_minute,ID,id_timestart_minute
+rdo_enable_duration,ID,id_duration_2
+txt_duration_minutes,ID,id_timedurationminutes
+lnk_show_more,CSS,a.moreless-toggler
+chk_repeat,ID,id_repeat
+txt_repeats,ID,id_repeats
+btn_save_event,XPATH,"//button[contains(@data-action,'save')]"
