@@ -1,0 +1,9 @@
+tc_id,firstname,lastname,email,expected_type,expected_value
+TC-004-001,Study Testing,__KEEP__,__KEEP__,SUCCESS,
+TC-004-002,,__KEEP__,__KEEP__,ERROR,Missing given name
+TC-004-003,   Trim Test   ,__KEEP__,__KEEP__,SUCCESS,Trim Test
+TC-004-004,__KEEP__,__KEEP__,studytesting@gmail.com,SUCCESS,
+TC-004-005,__KEEP__,__KEEP__,studytestinggmail.com,ERROR,Invalid email address
+TC-004-006,__KEEP__,__KEEP__,studytesting@gmail,ERROR,Invalid email address
+TC-004-009,Study,Testing,__KEEP__,SUCCESS,
+TC-004-010,,,studytesting.com,ERROR,Missing given name

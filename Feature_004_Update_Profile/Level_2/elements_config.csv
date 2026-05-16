@@ -1,0 +1,15 @@
+element_name,locator_type,locator_value
+login_url,URL,https://school.moodledemo.net/login/index.php
+profile_edit_url,URL,https://school.moodledemo.net/user/edit.php
+login_success_fragment,VALUE,/my/
+edit_url_fragment,VALUE,user/edit.php
+txt_login_username,ID,username
+txt_login_password,ID,password
+btn_login,ID,loginbtn
+txt_firstname,ID,id_firstname
+txt_lastname,ID,id_lastname
+txt_email,ID,id_email
+btn_submit,ID,id_submitbutton
+lbl_error,XPATH,"//span[contains(@class,'error')]|//div[contains(@class,'alert-danger')]|//div[contains(@class,'form-control-feedback') and contains(@class,'invalid-feedback')]"
+lnk_cancel_email,XPATH,"//a[contains(@href,'cancelemailchange')]"
+btn_continue,XPATH,"//button[contains(text(),'Continue')]|//a[contains(text(),'Continue')]|//button[contains(text(),'Tiếp tục')]"
